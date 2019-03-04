@@ -1,14 +1,14 @@
+import algorithm.BaseSortClass;
+
 import java.util.Arrays;
 
-public class BubbleSort {
+public class BubbleSort extends BaseSortClass{
 
     public static void main(String[] args) {
         int[] arras={9,1,5,8,3,7,4,6,2};
-    //    buddleSort1(arras);
+        buddleSort1(arras);
         buddleSort2(arras);
 
-        System.out.println( 5/2);
-        System.out.println(5%2);
     }
 
     //优化方案1,有序的话,少一次循环
