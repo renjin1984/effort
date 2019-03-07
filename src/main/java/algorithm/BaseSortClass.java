@@ -2,6 +2,10 @@ package algorithm;
 
 import java.util.Arrays;
 
+/**
+ *
+ * @author renjin
+ */
 public  class BaseSortClass {
 
     public static void swap(int[] arrys,int i,int j ){

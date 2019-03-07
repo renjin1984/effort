@@ -2,6 +2,10 @@ package algorithm;
 
 import java.util.Arrays;
 
+/**
+ * 快速排序,采用的前后指针法
+ * @author renjin
+ */
 public class FastSort extends BaseSortClass{
 
     private static  int[] arrays={6,1,2,7,9,3,4,5,10,8};
@@ -31,11 +35,13 @@ public class FastSort extends BaseSortClass{
         int tem=left;
         while (left!=right){
 
-            while (arrays[right]>arrays[tem]&&left<right)
+            while (arrays[right]>arrays[tem]&&left<right){
                 right--;
-            while (arrays[left]<=arrays[tem]&&left<right)
-                left++;
+            }
 
+            while (arrays[left]<=arrays[tem]&&left<right){
+                left++;
+            }
             swap(arrays,left,right);
 
         }

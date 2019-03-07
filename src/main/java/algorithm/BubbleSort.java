@@ -1,7 +1,13 @@
+package algorithm;
+
 import algorithm.BaseSortClass;
 
 import java.util.Arrays;
 
+/**
+ * 冒泡排序,有两种优化方案
+ * @author renjin
+ */
 public class BubbleSort extends BaseSortClass{
 
     public static void main(String[] args) {
